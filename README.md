@@ -1,6 +1,5 @@
-## TECHNICAL GUIDE: ***Create your own SOUND REACTIVE LED***
+## GUIDE: ***Create your own SOUND REACTIVE LED***
 
-*[click here for the github repository](https://github.com/Amandaaa00/Watching_the_Sound)*
 
 ## Hardware components:
 

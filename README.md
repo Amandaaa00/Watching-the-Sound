@@ -25,12 +25,12 @@
     
     *[Soldering Preparation]*
     
-    ![IMG_3242.heic](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e74c7aa2-b07d-477a-9aa8-9ea88060c0bb/IMG_3242.heic)
+    ![solder1.jpeg](solder1.jpeg)
     
 
 *[After Soldering]*
 
-![IMG_3315.HEIC](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/af72b39f-9c83-486f-b920-d8b4b353910d/IMG_3315.heic)
+![solder2.jpeg](solder2.jpeg)
 
 1. Microphone MAX 4466:
     1. Connect OUT to the input pin chosen (Pin 32) to ESP32
@@ -47,7 +47,7 @@ I connected the Microphone to ESP32 using indirect wiring, as I connected the VC
     
     *[Final Wiring]*
     
-    ![IMG_3524.heic](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eea89310-3660-4b51-818d-48cce42a4126/IMG_3524.heic)
+    ![wiring.jpeg](wiring.jpeg)
     
 
 ## Writing the Arduino Code
@@ -62,7 +62,7 @@ Through multiple times of testing and optimizing, I chose the values for the sou
 
 1. Use hard board paper and cut them into appropriate size
     
-    ![IMG_3300.HEIC](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d0393e84-690c-4f0c-8e83-cfc393fdd55d/IMG_3300.heic)
+    ![enclosure.jpeg](enclosure.jpeg)
     
 2. Cut out the space left for type C USB wires to connect to ESP32
 3. Fold the board paper into a box with a ruler and stick the connections
@@ -74,7 +74,7 @@ Through multiple times of testing and optimizing, I chose the values for the sou
 
 I was new for soldering, so I found it pretty hard to solder well. I was worried that the low-quality soldering might cause the hardware to be in short circuit or in poor connection. I practiced soldering for several times and looked for tutorials to do it better.
 
-![IMG_3308.HEIC](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1d43e30-0552-4df9-b819-915c00676a96/IMG_3308.heic)
+![solder3.jpeg](solder3.jpeg)
 
 ### 2. Connecting the wires
 
@@ -93,3 +93,5 @@ Also, the LEDs always flash which make it uncomfortable to see. I tried to impro
 ### 5. Color Arrangement
 
 I used Serial.pintln to print indicators of the sound intervals of low, medium and high. And this somehow made the colors assigned to each segment to be distributed well for the segments. Without this printing function, the LED lights would only display in the third segment no matter in what sound interval, and the colors seem to mix together.
+
+![mix.jpeg](mix.jpeg)
